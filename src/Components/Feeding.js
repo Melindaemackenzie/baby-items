@@ -1,7 +1,7 @@
 import React from "react";
 
-function Feeding({items}) {
-    const feedItems = items.filter((item) => item.category === 'feed');
+function Feeding({item}) {
+    const feedItems = item.filter((item) => item.category === 'Feed');
 
     return (
             <div>

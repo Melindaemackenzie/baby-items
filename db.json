@@ -69,6 +69,13 @@
       "description": "Bath letters",
       "category": "Bath",
       "id": 10
+    },
+    {
+      "name": "Bath Letters",
+      "image": "na",
+      "description": "bath letters",
+      "category": "Bath",
+      "id": 11
     }
   ]
 }

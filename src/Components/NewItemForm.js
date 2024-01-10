@@ -12,6 +12,7 @@ function NewItemForm ({items}) {
         setNewItemData({
             ...newItemData, [e.target.name] :e.target.value
         })
+        console.log(e.target.value)
     }
 
     
@@ -33,8 +34,6 @@ function NewItemForm ({items}) {
         })
         .then (r => r.json())
         .then(newItem => {
-            //if? newItemCategory === bath
-            // useParams
             console.log(newItem)
         })
 
@@ -48,16 +47,16 @@ function NewItemForm ({items}) {
             <h3 className='categories' >Bath, Car, Feed, Sleep</h3>
             <form onSubmit={handleSubmit}>
                 <label>Item Name:</label>
-                <input name="itemName" onChange={handleInputChange}type="text"/><br/>
+                <input name="itemName" value={newItemData.itemName} onChange={handleInputChange}type="text"/><br/>
                 <br></br>
                 <label>Item image URL:</label>
-                <input name ="itemImage" onChange={handleInputChange}type="text"/><br/>
+                <input name ="itemImage" value={newItemData.itemImage} onChange={handleInputChange}type="text"/><br/>
                 <br></br>
                 <label>Item Description:</label>
-                <input name="itemDescription" onChange={handleInputChange}type="text"/><br/>
+                <input name="itemDescription" value={newItemData.itemDescription} onChange={handleInputChange}type="text"/><br/>
                 <br></br>
                 <label>Item Category:</label>
-                <input name="itemCategory" onChange={handleInputChange}type="text"/><br/>
+                <input name="itemCategory" value={newItemData.itemCategory} onChange={handleInputChange}type="text"/><br/>
                 <br></br>
                 <label></label>
                 <input type="submit"/>
