@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 
-const [items, setItems] = useState ([])
+const [item, setItem] = useState ([])
 
 useEffect(() => {
     fetch('http://localhost:3000/items')
@@ -33,12 +33,12 @@ useEffect(() => {
         <hr></hr>
       <Router>
         <Routes>
-          <Route path="/" element={<Home items={items} />} />
-          <Route path="/bath" element={<Bath items={items}/>} />
-          <Route path="/car" element={<Car items={items}/>} />
-          <Route path="/feeding" element={<Feeding items={items}/>} />
-          <Route path="/sleep" element={<Sleep items={items}/>} />
-          <Route path="/newitemform" element={<NewItemForm items={items}/>}/>
+          <Route path="/" element={<Home item={item} />} />
+          <Route path="/bath" element={<Bath item={item}/>} />
+          <Route path="/car" element={<Car item={item}/>} />
+          <Route path="/feeding" element={<Feeding item={item}/>} />
+          <Route path="/sleep" element={<Sleep item={item}/>} />
+          <Route path="/newitemform" element={<NewItemForm item={item}/>}/>
         </Routes>
       </Router>
 

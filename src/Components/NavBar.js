@@ -57,7 +57,7 @@ return (
                 background: "darkblue",
             }}
         >
-            Feeding
+            Feed
         </NavLink>
         <NavLink
             to="/sleep"

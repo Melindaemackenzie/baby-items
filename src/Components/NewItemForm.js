@@ -14,6 +14,8 @@ function NewItemForm ({items}) {
         })
     }
 
+    
+
     const handleSubmit = (e) => {
         e.preventDefault();
         const newItem = {
@@ -41,6 +43,9 @@ function NewItemForm ({items}) {
     return (
         <div>
             <h1 className='item-form'>Add your own item below!</h1>
+            <br></br>
+            <h2 className='category-options'>Category options are:</h2>
+            <h3 className='categories' >Bath, Car, Feed, Sleep</h3>
             <form onSubmit={handleSubmit}>
                 <label>Item Name:</label>
                 <input name="itemName" onChange={handleInputChange}type="text"/><br/>
@@ -55,7 +60,7 @@ function NewItemForm ({items}) {
                 <input name="itemCategory" onChange={handleInputChange}type="text"/><br/>
                 <br></br>
                 <label></label>
-                <input type="submit" onSubmit={handleSubmit}/><br/>
+                <input type="submit"/>
 
             </form>
         </div>
