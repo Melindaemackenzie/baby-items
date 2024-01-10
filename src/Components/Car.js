@@ -1,19 +1,14 @@
 import React from "react";
+import Card from "./Card";
 
-function Car({items}) {
-    const carItems = items.filter((item) => item.category === 'Car');
+function Car({item}) {
+    const carItems = item.filter((item) => item.category === 'Car');
 
     return (
         <div>
                 <h1>Car Items</h1>
                 {carItems.map((item) => (
-                <div key={item.id}>
-                    <p className= 'item-name'>{item.name}  </p>
-                    <img src ={item.image} alt ='image' style={{ width: '300px', height: '250px' }}/>
-                    <br></br>
-                    <br></br>
-                    <p className= 'description'>{item.description}</p>
-                </div>
+                    <Card key={item.id} item={item} />
         ))}
     </div>
     )

@@ -76,6 +76,16 @@
       "description": "bath letters",
       "category": "Bath",
       "id": 11
+    },
+    {
+      "name": "Frida Mom Humidifier",
+      "image": "NA",
+      "description": "Cool Mist Humidifier",
+      "category": "Sleep",
+      "id": 12
+    },
+    {
+      "id": 13
     }
   ]
 }

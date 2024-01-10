@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function NewItemForm ({items}) {
+function NewItemForm ({items, onNewItemAdded}) {
     const [newItemData, setNewItemData] = useState({
         name: '',
         image: '',
@@ -36,6 +36,9 @@ function NewItemForm ({items}) {
         .then(newItem => {
             console.log(newItem)
         })
+
+        onNewItemAdded(newItem);
+       
 
     }
 

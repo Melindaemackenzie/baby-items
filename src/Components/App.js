@@ -25,6 +25,10 @@ useEffect(() => {
     })
 }, [])
 
+const handleNewItemAdded = (newItem) => {
+  setItem((prevItem)=> [...prevItem, newItem]);
+}
+
   return (
     <div className="App">
       <header className="App-header">
@@ -38,7 +42,7 @@ useEffect(() => {
           <Route path="/car" element={<Car item={item}/>} />
           <Route path="/feeding" element={<Feeding item={item}/>} />
           <Route path="/sleep" element={<Sleep item={item}/>} />
-          <Route path="/newitemform" element={<NewItemForm item={item}/>}/>
+          <Route path="/newitemform" element={<NewItemForm onNewItemAdded={handleNewItemAdded}item={item}/>}/>
         </Routes>
       </Router>
 
