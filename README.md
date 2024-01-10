@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+#SOURCES
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://www.hatch.co/rest-plus?utm_medium=paid_search&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmr59I4NhYvOeiKGuvQG0dsdgZKW4fCM_KqaieiYOWHbE4WKpl69hrRoC2XsQAvD_BwE&utm_source=google_shopping&gad_source=1
 
-## Available Scripts
+https://www.halosleep.com/bassinest-soothing-sleeper-3-0-4931
 
-In the project directory, you can run:
+https://www.halosleep.com/swaddle-micro-fleece-bunny-faces-swad-mf-bunface
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://www.chiccousa.com/shop-our-products/car-seats/infant/keyfit-30-infant-car-seat/79679.html?dwvar_79679_color=Orion&cgid=gear_car_seats_infant_car_seats&list=Category%20L3#start=1
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://www.skiphop.com/skiphop-baby-essentials/816523025075.html?cm_mmc=pla.sh.us.visitation.SkipHop+-+US+-+Shopping+-+PMAX+-+Catch-All.71700000113660826...google..pmax&gad_source=1&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmpABjLnBs3FGttr5PYrvn4clEwEun1HmYgMwKnR36AzpBXE8i-B_KhoCXF4QAvD_BwE&gclsrc=aw.ds
 
-### `npm test`
+https://www.tommeetippee.com/en-us/product/natural-start-baby-bottle-decorated#527=20906&471=166&526=430
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+https://www.copperpearl.com/products/premium-burp-cloths-autumn?variant=29552861511750&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google&utm_medium=cpc&utm_campaign=16978153640&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmiQH8onAwDN8awmDO4KD6WRb4KuJUei-tMmvNhQnspR8XwiLUqWHVxoCxEgQAvD_BwE
 
-### `npm run build`
+https://www.target.com/p/munchkin-brica-sun-safety-car-window-rollershade-with-heat-alert-black-2pk/-/A-16299486?ref=tgt_adv_xsp&AFID=google_pla_df&fndsrc=tmnv&DFA=71700000115620220&CPNG=PLA_DVM%2Ba064R000011fE8VQAU-Munchkin_Google+Search_Always+On_2023_Q4-1096489&adgroup=PLA_Munchkin&LID=700000001393753pgs&network=g&device=c&location=9052576&gad_source=1&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmtg569v5BZBfUXNaiq5M4ZDQYQxdLYJ1ViBtBm-AC-JzBbbTA9HqsBoCtfAQAvD_BwE&gclsrc=aw.ds
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://www.target.com/p/burt-39-s-bees-baby-174-set-of-2-botanical-hooded-towel-light-pink/-/A-88054020?ref=tgt_adv_xsp&AFID=google&fndsrc=tgtao&DFA=71700000012576719&CPNG=PLA_Kids_Priority%2BShopping%7CKids_Ecomm_AA&adgroup=Kids_Priority+TCINs&LID=700000001170770pgs&LNM=PRODUCT_GROUP&network=g&device=c&location=9005911&targetid=aud-554348709499:pla-296303633664&ds_rl=1246978&ds_rl=1246984&ds_rl=1241788&gad_source=1&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmjHPmjcRo77-lB4Q8CrX-rdkKVuJZmZeLEpHUjv4ScGbFjYYU_dB6hoCk5kQAvD_BwE&gclsrc=aw.ds
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
