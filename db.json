@@ -86,6 +86,13 @@
     },
     {
       "id": 13
+    },
+    {
+      "name": "Frida Mom Humidifier",
+      "image": "https://media.kohlsimg.com/is/image/kohls/4593582?wid=805&hei=805&op_sharpen=1",
+      "description": "Cool mist humidifier",
+      "category": "Sleep",
+      "id": 14
     }
   ]
 }

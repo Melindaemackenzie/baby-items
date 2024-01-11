@@ -19,7 +19,7 @@ function NavBar () {
 
 return (
     <div>
-        <NavLink
+       <NavLink
             to ="/"
             exact
             style={linkStyles}

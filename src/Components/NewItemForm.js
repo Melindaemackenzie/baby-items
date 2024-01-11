@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {NavLink} from "react-router-dom";
 
 function NewItemForm ({items, onNewItemAdded}) {
     const [newItemData, setNewItemData] = useState({
@@ -7,6 +8,17 @@ function NewItemForm ({items, onNewItemAdded}) {
         description: '',
         category: '',
     });
+    const linkStyles = {
+        display: "inline-block",
+        width: "50px",
+        padding: "12px",
+        margin: "0 6px 6px",
+        background: "white",
+        textDecoration: "none",
+        color: "black",
+        fontWeight: "bold",
+    
+    }
 
     const handleInputChange = (e) => {
         setNewItemData({
@@ -44,6 +56,16 @@ function NewItemForm ({items, onNewItemAdded}) {
 
     return (
         <div>
+            <NavLink
+            to ="/"
+            exact
+            style={linkStyles}
+            activestyle={{
+                background: "darkblue",
+            }}
+        >
+            Home
+        </NavLink>
             <h1 className='item-form'>Add your own item below!</h1>
             <br></br>
             <h2 className='category-options'>Category options are:</h2>
