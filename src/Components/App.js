@@ -7,7 +7,7 @@ import Feeding from "./Feeding"
 import Sleep from "./Sleep"
 import NewItemForm from "./NewItemForm";
 
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 
 function App() {
 
@@ -36,6 +36,7 @@ const handleNewItemAdded = (newItem) => {
       <header className="App-header">
         <h1>Must Have Baby Items! </h1>
         </header>
+        <img className='babypic' src='https://media4.giphy.com/media/21TLGIdROJLT2ERkmk/giphy.gif' alt='baby pic'/>
         <hr></hr>
       <Router>
         <Routes>

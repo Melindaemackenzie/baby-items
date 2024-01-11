@@ -47,9 +47,16 @@ function NewItemForm ({items, onNewItemAdded}) {
         .then (r => r.json())
         .then(newItem => {
             console.log(newItem)
+            
         })
-
+        
         onNewItemAdded(newItem);
+        setNewItemData({
+            itemName: '',
+            itemImage: '',
+            itemDescription: '',
+            itemCategory: '',
+        });
        
 
     }
