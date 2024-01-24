@@ -1,3 +1,12 @@
+#NAME
+
+Baby Items Application
+
+#DESCRIPTION
+
+In this SPA users are able to view recommended baby items based on specific categories. Each item has a name, image, and brief description of the product. Users are also then able to add their own recommended baby item with the same three things; name, image, and description.
+
+
 #SOURCES
 
 https://www.hatch.co/rest-plus?utm_medium=paid_search&gclid=CjwKCAiA-bmsBhAGEiwAoaQNmr59I4NhYvOeiKGuvQG0dsdgZKW4fCM_KqaieiYOWHbE4WKpl69hrRoC2XsQAvD_BwE&utm_source=google_shopping&gad_source=1
