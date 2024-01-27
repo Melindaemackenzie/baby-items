@@ -2,8 +2,8 @@ import React from "react";
 import Card from "./Card";
 import {NavLink} from "react-router-dom";
 
-function Feeding({item}) {
-    const feedItems = item.filter((item) => item.category === 'Feed');
+function Feeding({items}) {
+    const feedItems = items.filter((item) => item.category === 'Feed');
     const linkStyles = {
         display: "inline-block",
         width: "50px",
@@ -17,22 +17,22 @@ function Feeding({item}) {
     }
 
     return (
-            <div>
-                <NavLink
-            to ="/"
-            exact
-            style={linkStyles}
-            activestyle={{
-                background: "darkblue",
-            }}
-        >
-            Home
-        </NavLink>
+        <div>
+            <NavLink
+                to ="/"
+                exact
+                style={linkStyles}
+                activestyle={{
+                    background: "darkblue",
+                }}
+            >
+                Home
+            </NavLink>
                 <h1>Feeding Items</h1>
                 {feedItems.map((item) => (
-                <Card key={item.id} item={item} />
-        ))}
-    </div>
+                <Card key={item.id} items={items} />
+                ))}
+        </div>
     )
 }
 

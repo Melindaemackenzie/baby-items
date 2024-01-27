@@ -64,36 +64,35 @@ function NewItemForm ({items, onNewItemAdded}) {
     return (
         <div>
             <NavLink
-            to ="/"
-            exact
-            style={linkStyles}
-            activestyle={{
-                background: "darkblue",
-            }}
-        >
-            Home
-        </NavLink>
-            <h1 className='item-form'>Add your own item below!</h1>
-            <br></br>
-            <h2 className='category-options'>Category options are:</h2>
-            <h3 className='categories' >Bath, Car, Feed, Sleep</h3>
-            <form onSubmit={handleSubmit}>
-                <label>Item Name:</label>
-                <input name="itemName" value={newItemData.itemName} onChange={handleInputChange}type="text"/><br/>
+                to ="/"
+                exact
+                style={linkStyles}
+                activestyle={{
+                    background: "darkblue",
+                }}
+            >
+                Home
+            </NavLink>
+                <h1 className='item-form'>Add your own item below!</h1>
                 <br></br>
-                <label>Item image URL:</label>
-                <input name ="itemImage" value={newItemData.itemImage} onChange={handleInputChange}type="text"/><br/>
-                <br></br>
-                <label>Item Description:</label>
-                <input name="itemDescription" value={newItemData.itemDescription} onChange={handleInputChange}type="text"/><br/>
-                <br></br>
-                <label>Item Category:</label>
-                <input name="itemCategory" value={newItemData.itemCategory} onChange={handleInputChange}type="text"/><br/>
-                <br></br>
-                <label></label>
-                <input type="submit"/>
-
-            </form>
+                <h2 className='category-options'>Category options are:</h2>
+                <h3 className='categories' >Bath, Car, Feed, Sleep</h3>
+                <form onSubmit={handleSubmit}>
+                    <label>Item Name:</label>
+                    <input name="itemName" value={newItemData.itemName} onChange={handleInputChange}type="text"/><br/>
+                    <br></br>
+                    <label>Item image URL:</label>
+                    <input name ="itemImage" value={newItemData.itemImage} onChange={handleInputChange}type="text"/><br/>
+                    <br></br>
+                    <label>Item Description:</label>
+                    <input name="itemDescription" value={newItemData.itemDescription} onChange={handleInputChange}type="text"/><br/>
+                    <br></br>
+                    <label>Item Category:</label>
+                    <input name="itemCategory" value={newItemData.itemCategory} onChange={handleInputChange}type="text"/><br/>
+                    <br></br>
+                    <label></label>
+                    <input type="submit"/>
+                </form>
         </div>
 
     )

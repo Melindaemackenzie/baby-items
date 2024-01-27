@@ -11,14 +11,14 @@ import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 
 function App() {
 
-const [item, setItem] = useState ([])
+const [items, setItems] = useState ([])
 
 useEffect(() => {
     fetch('http://localhost:3000/items')
     .then(res => res.json())
     .then(data => {
       console.log(data)
-      setItem(data);
+      setItems(data);
     })
     .catch((error) => {
       console.error('Error fetching data:', error);
@@ -26,7 +26,7 @@ useEffect(() => {
 }, [])
 
 const handleNewItemAdded = (newItem) => {
-  setItem((prevItem)=> [...prevItem, newItem]);
+  setItems((prevItem)=> [...prevItem, newItem]);
 }
 
   return (
@@ -35,17 +35,17 @@ const handleNewItemAdded = (newItem) => {
       </br>
       <header className="App-header">
         <h1>Must Have Baby Items! </h1>
-        </header>
-        <img className='babypic' src='https://media4.giphy.com/media/21TLGIdROJLT2ERkmk/giphy.gif' alt='baby pic'/>
+      </header>
+          <img className='babypic' src='https://media4.giphy.com/media/21TLGIdROJLT2ERkmk/giphy.gif' alt='baby pic'/>
         <hr></hr>
       <Router>
         <Routes>
-          <Route path="/" element={<Home item={item} />} />
-          <Route path="/bath" element={<Bath item={item}/>} />
-          <Route path="/car" element={<Car item={item}/>} />
-          <Route path="/feeding" element={<Feeding item={item}/>} />
-          <Route path="/sleep" element={<Sleep item={item}/>} />
-          <Route path="/newitemform" element={<NewItemForm onNewItemAdded={handleNewItemAdded}item={item}/>}/>
+          <Route path="/" element={<Home items={items} />} />
+          <Route path="/bath" element={<Bath items={items}/>} />
+          <Route path="/car" element={<Car items={items}/>} />
+          <Route path="/feeding" element={<Feeding items={items}/>} />
+          <Route path="/sleep" element={<Sleep items={items}/>} />
+          <Route path="/newitemform" element={<NewItemForm onNewItemAdded={handleNewItemAdded}items={items}/>}/>
         </Routes>
       </Router>
 

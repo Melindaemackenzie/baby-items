@@ -2,8 +2,8 @@ import React from "react";
 import Card from "./Card";
 import {NavLink} from "react-router-dom";
 
-function Bath({item})  {
-    const bathItems = item.filter((item) => item.category === 'Bath');
+function Bath({items})  {
+    const bathItems = items.filter((item) => item.category === 'Bath');
     const linkStyles = {
         display: "inline-block",
         width: "50px",
