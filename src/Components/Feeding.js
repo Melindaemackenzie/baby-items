@@ -30,7 +30,7 @@ function Feeding({items}) {
             </NavLink>
                 <h1>Feeding Items</h1>
                 {feedItems.map((item) => (
-                <Card key={item.id} items={items} />
+                <Card key={item.id} item={item} />
                 ))}
         </div>
     )
