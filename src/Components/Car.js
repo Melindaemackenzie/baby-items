@@ -30,7 +30,7 @@ function Car({items}) {
             </NavLink>
                 <h1>Car Items</h1>
                 {carItems.map((item) => (
-                    <Card key={item.id} items={items} />
+                    <Card key={item.id} item={item} />
                 ))}
         </div>
     )
