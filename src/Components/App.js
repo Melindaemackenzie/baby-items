@@ -24,7 +24,7 @@ useEffect(() => {
     .catch((error) => {
       console.error('Error fetching data:', error);
     })
-}, [])
+      }, [])
 
 const handleNewItemAdded = (newItem) => {
   setItems((prevItem)=> [...prevItem, newItem]);
@@ -50,10 +50,7 @@ const handleNewItemAdded = (newItem) => {
         </Routes>
       </Router>
       <Footer />
-
-        
-      </div>
-    
+    </div>
   );
 }
 
