@@ -16,23 +16,24 @@ function Bath({items})  {
     
     }
 
-    return(
-        <div>
-            <NavLink
-            to ="/"
-            exact
-            style={linkStyles}
-            activestyle={{
-                background: "darkblue",
-            }}
-        >
-            Home
-        </NavLink> 
-                <h1>Bath Items</h1>
-                {bathItems.map((item) => (
-                <Card key={item.id} item={item} />
-        ))}
-    </div>
-    );
-}
+    return  (
+            <div>
+                <NavLink
+                    to ="/"
+                    exact
+                    style={linkStyles}
+                    activestyle={{
+                        background: "darkblue",
+                    }}
+                >
+                    Home
+                </NavLink> 
+                    <h1>Bath Items</h1>
+                    {bathItems.map((item) => (
+                    <Card key={item.id} item={item} />
+                    ))}
+            </div>
+        );
+    }
+    
 export default Bath;

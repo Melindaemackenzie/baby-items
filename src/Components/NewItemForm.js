@@ -94,7 +94,6 @@ function NewItemForm ({items, onNewItemAdded}) {
                     <input type="submit"/>
                 </form>
         </div>
-
     )
 }
 
