@@ -6,6 +6,7 @@ import Car from "./Car"
 import Feeding from "./Feeding"
 import Sleep from "./Sleep"
 import NewItemForm from "./NewItemForm";
+import Footer from "./Footer"
 
 import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 
@@ -48,6 +49,7 @@ const handleNewItemAdded = (newItem) => {
           <Route path="/newitemform" element={<NewItemForm onNewItemAdded={handleNewItemAdded}items={items}/>}/>
         </Routes>
       </Router>
+      <Footer />
 
         
       </div>
